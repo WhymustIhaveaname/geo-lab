@@ -1,0 +1,8 @@
+{
+  "name": "geo-lab",
+  "description": "Geotechnical Abaqus simulation orchestrator",
+  "version": "0.1.0",
+  "author": {
+    "name": "youran"
+  }
+}
