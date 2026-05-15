@@ -2,6 +2,8 @@
 
 [English](README.md) | 中文
 
+![hero](hero.svg)
+
 用 Claude Code 模拟一个岩土工程课题组: 一个教授 + 一群人格各异的博士生, 跑 Abaqus 仿真.
 
 ## 结构
@@ -40,6 +42,11 @@ claude --plugin-dir ../geo-lab --dangerously-skip-permissions
 ```
 /supervisor
 ```
+
+## 相关项目
+
+- arXiv 工具 (Claude Code 插件): <https://github.com/WhymustIhaveaname/arxiv-tools>
+- Telegram 桥接 (Claude Code 插件): <https://github.com/WhymustIhaveaname/mcp-communicator-telegram>
 
 ## 合作
 

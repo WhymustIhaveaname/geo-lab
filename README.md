@@ -2,6 +2,8 @@
 
 English | [中文](README_zh.md)
 
+![hero](hero.svg)
+
 A Claude Code plugin that simulates a geotechnical engineering research group: one professor + a team of PhD students with varied personalities, running Abaqus simulations.
 
 ## Layout
@@ -40,6 +42,11 @@ Inside Claude Code:
 ```
 /supervisor
 ```
+
+## Related projects
+
+- arXiv tools for Claude Code: <https://github.com/WhymustIhaveaname/arxiv-tools>
+- Telegram bridge for Claude Code: <https://github.com/WhymustIhaveaname/mcp-communicator-telegram>
 
 ## Collaboration
 

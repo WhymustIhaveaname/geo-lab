@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" font-family="monospace">
+  <defs>
+    <marker id="ar-blue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#4a9eda"/>
+    </marker>
+    <marker id="ar-orange" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#da8a4a"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="200" fill="#fafbfc" rx="12"/>
+
+  <!-- Professor (left, gray hair, glasses, dark suit) -->
+  <g transform="translate(30, 70)">
+    <rect x="14" y="0" width="7" height="7" fill="#999"/>
+    <rect x="21" y="0" width="7" height="7" fill="#999"/>
+    <rect x="28" y="0" width="7" height="7" fill="#999"/>
+    <rect x="35" y="0" width="7" height="7" fill="#999"/>
+    <rect x="7" y="7" width="7" height="7" fill="#999"/>
+    <rect x="14" y="7" width="7" height="7" fill="#999"/>
+    <rect x="21" y="7" width="7" height="7" fill="#999"/>
+    <rect x="28" y="7" width="7" height="7" fill="#999"/>
+    <rect x="35" y="7" width="7" height="7" fill="#999"/>
+    <rect x="42" y="7" width="7" height="7" fill="#999"/>
+    <rect x="7" y="14" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="14" y="14" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="21" y="14" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="28" y="14" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="35" y="14" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="42" y="14" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="7" y="21" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="14" y="21" width="7" height="7" fill="#333"/>
+    <rect x="21" y="21" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="28" y="21" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="35" y="21" width="7" height="7" fill="#333"/>
+    <rect x="42" y="21" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="7" y="28" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="14" y="28" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="21" y="28" width="7" height="7" fill="#333"/>
+    <rect x="28" y="28" width="7" height="7" fill="#333"/>
+    <rect x="35" y="28" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="42" y="28" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="0" y="35" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="7" y="35" width="7" height="7" fill="#333"/>
+    <rect x="14" y="35" width="7" height="7" fill="#333"/>
+    <rect x="21" y="35" width="7" height="7" fill="#333"/>
+    <rect x="28" y="35" width="7" height="7" fill="#333"/>
+    <rect x="35" y="35" width="7" height="7" fill="#333"/>
+    <rect x="42" y="35" width="7" height="7" fill="#333"/>
+    <rect x="49" y="35" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="7" y="42" width="7" height="7" fill="#333"/>
+    <rect x="14" y="42" width="7" height="7" fill="#333"/>
+    <rect x="21" y="42" width="7" height="7" fill="#333"/>
+    <rect x="28" y="42" width="7" height="7" fill="#333"/>
+    <rect x="35" y="42" width="7" height="7" fill="#333"/>
+    <rect x="42" y="42" width="7" height="7" fill="#333"/>
+    <rect x="14" y="49" width="7" height="7" fill="#444"/>
+    <rect x="21" y="49" width="7" height="7" fill="#444"/>
+    <rect x="28" y="49" width="7" height="7" fill="#444"/>
+    <rect x="35" y="49" width="7" height="7" fill="#444"/>
+    <text x="28" y="78" text-anchor="middle" font-size="11px" fill="#666">supervisor</text>
+  </g>
+
+  <!-- Student (right, brown hair, blue shirt) -->
+  <g transform="translate(720, 70)">
+    <rect x="14" y="0" width="7" height="7" fill="#8B5E3C"/>
+    <rect x="21" y="0" width="7" height="7" fill="#8B5E3C"/>
+    <rect x="28" y="0" width="7" height="7" fill="#8B5E3C"/>
+    <rect x="35" y="0" width="7" height="7" fill="#8B5E3C"/>
+    <rect x="7" y="7" width="7" height="7" fill="#8B5E3C"/>
+    <rect x="14" y="7" width="7" height="7" fill="#8B5E3C"/>
+    <rect x="21" y="7" width="7" height="7" fill="#8B5E3C"/>
+    <rect x="28" y="7" width="7" height="7" fill="#8B5E3C"/>
+    <rect x="35" y="7" width="7" height="7" fill="#8B5E3C"/>
+    <rect x="42" y="7" width="7" height="7" fill="#8B5E3C"/>
+    <rect x="7" y="14" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="14" y="14" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="21" y="14" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="28" y="14" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="35" y="14" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="42" y="14" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="7" y="21" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="14" y="21" width="7" height="7" fill="#333"/>
+    <rect x="21" y="21" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="28" y="21" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="35" y="21" width="7" height="7" fill="#333"/>
+    <rect x="42" y="21" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="7" y="28" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="14" y="28" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="21" y="28" width="7" height="7" fill="#E8967A"/>
+    <rect x="28" y="28" width="7" height="7" fill="#E8967A"/>
+    <rect x="35" y="28" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="42" y="28" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="0" y="35" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="7" y="35" width="7" height="7" fill="#4A9EDA"/>
+    <rect x="14" y="35" width="7" height="7" fill="#4A9EDA"/>
+    <rect x="21" y="35" width="7" height="7" fill="#4A9EDA"/>
+    <rect x="28" y="35" width="7" height="7" fill="#4A9EDA"/>
+    <rect x="35" y="35" width="7" height="7" fill="#4A9EDA"/>
+    <rect x="42" y="35" width="7" height="7" fill="#4A9EDA"/>
+    <rect x="49" y="35" width="7" height="7" fill="#FFDAB9"/>
+    <rect x="7" y="42" width="7" height="7" fill="#4A9EDA"/>
+    <rect x="14" y="42" width="7" height="7" fill="#4A9EDA"/>
+    <rect x="21" y="42" width="7" height="7" fill="#4A9EDA"/>
+    <rect x="28" y="42" width="7" height="7" fill="#4A9EDA"/>
+    <rect x="35" y="42" width="7" height="7" fill="#4A9EDA"/>
+    <rect x="42" y="42" width="7" height="7" fill="#4A9EDA"/>
+    <rect x="14" y="49" width="7" height="7" fill="#444"/>
+    <rect x="21" y="49" width="7" height="7" fill="#444"/>
+    <rect x="28" y="49" width="7" height="7" fill="#444"/>
+    <rect x="35" y="49" width="7" height="7" fill="#444"/>
+    <text x="28" y="78" text-anchor="middle" font-size="11px" fill="#666">phdstudent</text>
+  </g>
+
+  <!-- Top bubble: professor → student -->
+  <rect x="110" y="50" width="320" height="26" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1.5" rx="8"/>
+  <polygon points="108,62 99,67 108,67" fill="#e8f4fd" stroke="#4a9eda" stroke-width="1.5"/>
+  <rect x="107" y="61" width="3" height="7" fill="#e8f4fd"/>
+  <text x="123" y="68" font-size="13px">📨 Dear 致远, run a base case.</text>
+  <line x1="432" y1="63" x2="488" y2="63" stroke="#4a9eda" stroke-width="2" marker-end="url(#ar-blue)"/>
+
+  <!-- Bottom bubble: student → professor -->
+  <rect x="370" y="95" width="320" height="26" fill="#fdf2e8" stroke="#da8a4a" stroke-width="1.5" rx="8"/>
+  <polygon points="692,107 701,112 692,112" fill="#fdf2e8" stroke="#da8a4a" stroke-width="1.5"/>
+  <rect x="690" y="106" width="3" height="7" fill="#fdf2e8"/>
+  <text x="383" y="113" font-size="13px">📊 mesh ✓ 12345 elem · 0 WARNING</text>
+  <line x1="368" y1="108" x2="312" y2="108" stroke="#da8a4a" stroke-width="2" marker-end="url(#ar-orange)"/>
+
+  <!-- Tagline -->
+  <text x="400" y="180" text-anchor="middle" font-size="13px" fill="#666">a virtual geotech research group, powered by Claude Code</text>
+</svg>
