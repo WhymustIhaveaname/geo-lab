@@ -13,7 +13,7 @@ set -euo pipefail
 
 source ~/.bashrc  # 拿到 claude-ds 这个 bash function
 
-TAGS=("牛马" "天才" "学术妲己" "经费刺客" "扫把星" "卷神")
+TAGS=("公式党" "天才" "学术妲己" "经费刺客" "试错派" "卷神")
 MODELS=("claude" "claude-ds")
 
 NAME="${1:-}"
@@ -65,9 +65,10 @@ with open(yaml_path, 'r+') as f:
             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
         ).returncode == 0
         if alive:
-            print("running\t")
+            print("running\t\t\t")
         else:
-            print(f"resume\t{sid}")
+            # tag / model 从 yaml 读 (创建时已经固化, 不重算)
+            print(f"resume\t{sid}\t{data[name]['tag']}\t{data[name]['model']}")
     else:
         sid = str(uuid.uuid4())
         data[name] = {
@@ -80,11 +81,13 @@ with open(yaml_path, 'r+') as f:
         f.truncate()
         f.write(f"# cwd: {cwd}\n")
         yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False)
-        print(f"new\t{sid}")
+        print(f"new\t{sid}\t{tag}\t{model}")
 PYEOF
 )
 STATE=$(echo "$RESULT" | cut -f1)
 SID=$(echo "$RESULT" | cut -f2)
+TAG=$(echo "$RESULT" | cut -f3)
+MODEL=$(echo "$RESULT" | cut -f4)
 
 if [[ "$STATE" == "running" ]]; then
   echo "$NAME 正在运行!" >&2
